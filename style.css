@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #202733;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15%;
+  height: 332px;
+  width: 540px;
+  background-color: hsl(217, 19%, 38%);
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+#advice_number {
+  display: flex;
+  color: #53ffaa;
+}
+.flex {
+  display: flex;
+}
+#advice {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+.attribution {
+  display: flex;
+}
+.inline {
+  display: inline;
+}
+hr {
+  display: inline;
+  height: 1px;
+  width: 196px;
+  border-radius: 0px;
+  background-color: #4f5d74;
+}
+#advice-btn {
+  display: flex;
+  position: absolute;
+  margin-top: 325px;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #53ffaa;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#advice-btn img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
